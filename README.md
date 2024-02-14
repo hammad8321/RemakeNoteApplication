@@ -49,11 +49,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 These Command are Help ful to create this Project
 
-    C:\HammadDrive\HammadLearning\Project\tsCodinginFlow\backend>npm init -y
+    C:\***\Project\tsCodinginFlow\backend>npm init -y
 
 Then start the VS code IDE
 
-    C:\HammadDrive\HammadLearning\Project\tsCodinginFlow\backend>code .
+    C:\****\Project\tsCodinginFlow\backend>code .
 
     npm install --save-dev typescript
 
@@ -135,7 +135,7 @@ to start
 # Frontend
    
    
-    C:\HammadDrive\HammadLearning\Project\tsCodinginFlow> npx create-react-app frontend --template typescript
+    C:\*****\Project\tsCodinginFlow> npx create-react-app frontend --template typescript
 
 
     npm install react-bootstrap bootstrap
@@ -174,8 +174,8 @@ Timestamps:
 
 
 - [x] 0:00 - Course  content + prerequisites
-- [x]13:40 - NodeJS + Express + TypeScript + ESLint setup (Hello World)
-- [x]- [x]49:11 - MongoDB Atlas + Mongoose setup + Envalid
+- [x] 13:40 - NodeJS + Express + TypeScript + ESLint setup (Hello World)
+- [x] 49:11 - MongoDB Atlas + Mongoose setup + Envalid
 - [x] 1:16:08 - MongoDB model setup + Express error handling (+ what  is middleware)
 - [x] 1:40:09 - Creating notes + routers + controllers
 - [x] 2:03:22 - Express HTTP error handling
