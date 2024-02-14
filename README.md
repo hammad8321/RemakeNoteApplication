@@ -139,15 +139,9 @@ to start
 
 
     npm install react-bootstrap bootstrap
+
+    npm i react-hook-form
    
-
-
-
-
-
-
-
-
 
 
 
@@ -170,6 +164,32 @@ Facebook:
 
  / codinginflow  
 
+# Git
+
+
+ ## To move it fist time 
+
+    git init
+
+    git add . // add all files
+
+    git commit -m "first commit"
+
+    git branch -M main
+
+    git remote add origin {link}
+
+    git push -u origin main
+
+ ## To move to git second time
+    git add .
+
+    git commit -m "updated Readme"
+
+    git push
+
+
+
 Timestamps:
 
 
@@ -183,8 +203,8 @@ Timestamps:
 - [x] 2:37:57 - React setup with TypeScript / What is declarative UI?
 - [x] 2:58:03 - Fetching notes + proxy
 - [x] 3:13:46 - React components & CSS modules
-- 3:30:50 - Finishing notes styling
-- 3:50:06 - Creating notes from the frontend
+- [x] 3:30:50 - Finishing notes styling
+- [x] 3:50:06 - Creating notes from the frontend
 - 4:33:50 - Update + delete notes (frontend)
 - 5:00:24 - Loading/error/empty states
 - 5:10:44 - User authentication with express-session & cookies
@@ -197,4 +217,4 @@ Timestamps:
 
 
 
-time 3:30>>
+V 3:55
