@@ -132,8 +132,8 @@ to start
    
    
    
-# Frontend
-   
+## Frontend
+ 
    
     C:\*****\Project\tsCodinginFlow> npx create-react-app frontend --template typescript
 
@@ -141,6 +141,9 @@ to start
     npm install react-bootstrap bootstrap
 
     npm i react-hook-form
+## Icons
+
+     npm install react-icons --save
    
 
 
@@ -217,4 +220,4 @@ Timestamps:
 
 
 
-V 3:55
+V 4:33
