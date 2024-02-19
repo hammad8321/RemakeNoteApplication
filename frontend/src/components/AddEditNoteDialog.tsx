@@ -51,7 +51,10 @@ const AddEditNoteDialog = ({ onDismiss, onNoteSaved,  noteToEdit }: AddEditNoteD
               <Form.Label>Title</Form.Label>
               <Form.Control
                 type="text"
-                placeholder="Add New Title"
+                maxLength={29}
+                
+                placeholder="// Add New Title"
+               
                 isInvalid={!!errors.title}
                 {...register("title", { required: "Required" })}
               ></Form.Control>
@@ -63,6 +66,7 @@ const AddEditNoteDialog = ({ onDismiss, onNoteSaved,  noteToEdit }: AddEditNoteD
               <Form.Label>Text</Form.Label>
               <Form.Control
                 as="textarea"
+               
                 rows={5}
                 placeholder="// add text here "
                 {...register("text")}

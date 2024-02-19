@@ -148,24 +148,11 @@ to start
 
 
 
-⭐ Get my full-stack Next.js with Express & TypeScript course: https://codinginflow.com/nextjs
-✅ Get my free React Best Practices course: https://www.codinginflow.com/reactbes...
-💌 Join my newsletter for regular web dev tips: https://codinginflow.com/newsletter
-💬 Join our developer community on Discord: https://codinginflow.com/discord
-
-📣 Follow Coding in Flow on social media:
-Twitter:  
-
- / codinginflow  
-Instagram:  
-
- / codinginflow  
-TikTok:  
-
- / codinginflow  
-Facebook:  
-
- / codinginflow  
+⭐
+✅ 
+💌
+💬 
+📣 
 
 # Git
 
@@ -208,7 +195,7 @@ Timestamps:
 - [x] 3:13:46 - React components & CSS modules
 - [x] 3:30:50 - Finishing notes styling
 - [x] 3:50:06 - Creating notes from the frontend
-- 4:33:50 - Update + delete notes (frontend)
+- [x] 4:33:50 - Update + delete notes (frontend)
 - 5:00:24 - Loading/error/empty states
 - 5:10:44 - User authentication with express-session & cookies
 - 5:54:54 - Frontend authentication + extracting form field components
@@ -220,4 +207,4 @@ Timestamps:
 
 
 
-V 4:33
+V 5:09
