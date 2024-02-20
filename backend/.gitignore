@@ -7,6 +7,15 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+
+{
+   
+    
+    "username":"user1",
+    "email": "blabla@email.com",
+    "password":" abc123"
+}
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 

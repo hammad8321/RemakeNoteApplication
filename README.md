@@ -144,6 +144,13 @@ to start
 ## Icons
 
      npm install react-icons --save
+
+
+## User Table in backend
+
+    npm i bcrypt
+
+    npm i -D @types/bcrypt
    
 
 
@@ -196,8 +203,8 @@ Timestamps:
 - [x] 3:30:50 - Finishing notes styling
 - [x] 3:50:06 - Creating notes from the frontend
 - [x] 4:33:50 - Update + delete notes (frontend)
-- 5:00:24 - Loading/error/empty states
-- 5:10:44 - User authentication with express-session & cookies
+- [x] 5:00:24 - Loading/error/empty states
+- [x] 5:10:44 - User authentication with express-session & cookies
 - 5:54:54 - Frontend authentication + extracting form field components
 - 7:00:52 - Protecting user notes with auth middleware
 - 7:21:33 - Routing with react-router-dom
@@ -207,4 +214,6 @@ Timestamps:
 
 
 
-V 5:09
+V 5:26
+
+
