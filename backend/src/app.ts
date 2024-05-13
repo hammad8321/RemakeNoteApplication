@@ -4,12 +4,32 @@ import noteRoutes from "./routes/notes";
 import userRoutes from  "./routes/user"
 import morgan from "morgan";
 import createHttpError, { isHttpError } from "http-errors";
+import session from "express-session"
+import env from "./util/validateEnv";
+import MongoStore from "connect-mongo";
 
 const app = express();
 
 app.use(morgan("dev"));
 
 app.use(express.json());
+
+/* This code snippet is setting up a session middleware in an Express application using the
+`express-session` package. Here's what each option in the `app.use(session({}))` configuration is
+doing: */
+app.use(session({
+
+  secret : env.SESSION_SECRET,
+  resave:false ,
+  saveUninitialized: false ,
+  cookie :{
+    maxAge: 60 * 60 * 1000 ,
+  },
+  rolling: true,
+  store : MongoStore.create({
+    mongoUrl : env.MONGO_CONNECTION_STRING
+  }),
+}));
 
 app.use("/api/notes", noteRoutes);
 app.use("/api/users", userRoutes);
