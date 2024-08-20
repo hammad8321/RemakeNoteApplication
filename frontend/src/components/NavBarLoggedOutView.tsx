@@ -1,20 +1,17 @@
-import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button } from "react-bootstrap";
 
 interface NavBarLoggedOutViewProps {
-    onSignupClicked:()=>void,
-    onLoginClicked:()=>void
-
+    onSignUpClicked: () => void,
+    onLoginClicked: () => void,
 }
 
-const NavBarLoggedOutView: React.FC<NavBarLoggedOutViewProps> = ({onSignupClicked, onLoginClicked }: NavBarLoggedOutViewProps) => {
-  return (
-    <div>
-        <Button onClick={onSignupClicked}>Sign Up</Button>
-        <Button onClick={onLoginClicked}> Log in </Button>
-      
-    </div>
-  );
+const NavBarLoggedOutView = ({ onSignUpClicked, onLoginClicked }: NavBarLoggedOutViewProps) => {
+    return (
+        <>
+            <Button onClick={onSignUpClicked}>Sign Up</Button>
+            <Button onClick={onLoginClicked}>Log In</Button>
+        </>
+    );
 }
 
 export default NavBarLoggedOutView;

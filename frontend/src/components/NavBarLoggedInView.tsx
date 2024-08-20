@@ -1,42 +1,32 @@
-import React from 'react';
-import { User } from '../models/user';
+import { Button, Navbar } from "react-bootstrap";
+import { User } from "../models/user";
 import * as NotesApi from "../network/notes_api";
-import { Button, Navbar } from 'react-bootstrap';
 
 interface NavBarLoggedInViewProps {
-    user:User,
-    onLogoutSuccessful:()=>void,
-
-    
-
+    user: User,
+    onLogoutSuccessful: () => void,
 }
 
-const NavBarLoggedInView: React.FC<NavBarLoggedInViewProps> = ({user ,  onLogoutSuccessful}:NavBarLoggedInViewProps) => {
-async function logout() {
+const NavBarLoggedInView = ({ user, onLogoutSuccessful }: NavBarLoggedInViewProps) => {
 
-    try {
-        await NotesApi.logout();
-        onLogoutSuccessful();
-        
-    } catch (error) {
-        console.error(error);
-        alert(error)
-        
+    async function logout() {
+        try {
+            await NotesApi.logout();
+            onLogoutSuccessful();
+        } catch (error) {
+            console.error(error);
+            alert(error);
+        }
     }
-}
+
     return (
-    <div>
-        <Navbar.Text className="me-2"> Signed in as : {user.username}</Navbar.Text>
-        <Button onClick={logout}>  Exit  </Button>
-      
-    </div>
-  );
+        <>
+            <Navbar.Text className="me-2">
+                Signed in as: {user.username}
+            </Navbar.Text>
+            <Button onClick={logout}>Log out</Button>
+        </>
+    );
 }
 
 export default NavBarLoggedInView;
-
-
-
-//<----------------------------------------------------------------------------------------------------->
-
-

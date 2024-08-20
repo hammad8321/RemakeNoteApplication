@@ -151,6 +151,15 @@ to start
     npm i bcrypt
 
     npm i -D @types/bcrypt
+
+
+## Express Session
+
+    npm i express-session
+
+    npm i -D @types/express-session
+
+    npm install connect-mongo
    
 
 
@@ -189,6 +198,11 @@ to start
 
 Timestamps:
 
+https://www.youtube.com/watch?v=FcxjCPeicvU
+
+
+https://github.com/codinginflow/MERN-course
+
 
 - [x] 0:00 - Course  content + prerequisites
 - [x] 13:40 - NodeJS + Express + TypeScript + ESLint setup (Hello World)
@@ -205,8 +219,8 @@ Timestamps:
 - [x] 4:33:50 - Update + delete notes (frontend)
 - [x] 5:00:24 - Loading/error/empty states
 - [x] 5:10:44 - User authentication with express-session & cookies
-- 5:54:54 - Frontend authentication + extracting form field components
-- 7:00:52 - Protecting user notes with auth middleware
+- [x] 5:54:54 - Frontend authentication + extracting form field components
+- [x] 7:00:52 - Protecting user notes with auth middleware
 - 7:21:33 - Routing with react-router-dom
 - 7:37:00 - Handling different HTTP errors in React
 
@@ -214,6 +228,6 @@ Timestamps:
 
 
 
-V 5:26
+V 7:20
 
 

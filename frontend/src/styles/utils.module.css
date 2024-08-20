@@ -4,16 +4,36 @@
     margin-right: auto;
 }
 
-.flexCenter{
+.flexCenter {
     display: flex;
     align-items: center;
     justify-content: center;
-    grid: 4px;
-
+    gap: 4px;
 }
 
-
-.widthButton{
+.width100 {
     width: 100%;
-
 }
+
+
+#name-wrapper {
+    background-image: url('../images/blank.jpg'); /* Replace with your image URL or path */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ensure it fits within its parent */
+}
+
+    #name-wrapper input[type="text"] {
+        margin-bottom: 10px; /* Space between the text fields */
+        padding: 10px;
+        width: 100%; /* Make text fields fill the container */
+        max-width: 300px; /* Optional: Limit the maximum width */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
